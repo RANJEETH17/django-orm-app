@@ -40,14 +40,14 @@ class StudentAdmin(admin.ModelAdmin):
 
 
 ## Admin.py
-```
+
 from django.contrib import admin
 from myapp.models import Student,StudentAdmin
 admin.site.register(Student,StudentAdmin
 
 
 
-## OUTPUT
+ ## OUTPUT
 ![dj3](https://user-images.githubusercontent.com/120718823/236885066-c8460aa0-3b0e-4487-9e67-0e9f235b4d96.png)
 ![Screenshot (5)](https://user-images.githubusercontent.com/120718823/236885091-3f648a78-ce34-4790-8986-64649517606e.png)
 
